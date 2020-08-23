@@ -1,0 +1,6 @@
+#!/bin/bash
+
+jupyter contrib nbextension install --user
+jupyter nbextension enable codefolding/main
+
+wget -O data/vectors.bin.gz https://github.com/eyaler/word2vec-slim/raw/master/GoogleNews-vectors-negative300-SLIM.bin.gz
