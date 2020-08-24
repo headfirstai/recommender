@@ -1,3 +1,11 @@
 div.output_subarea {
     max-width: 100% !important;
 }
+
+table.dataframe td {
+    text-align: left !important;
+}
+
+.dataframe thead th {
+    text-align: left !important;
+}
